@@ -51,6 +51,8 @@
 
 ```
 > python3 manage.py runserver
+> sudo lsof -t -i tcp:8000 | xargs kill -9  <-- Kill Puerto OSX
+> sudo fuser -k 8000/tcp  <-- Linuz Kill Port
 ```
 
 ## Creamos el app
