@@ -7,11 +7,20 @@
 ```
 
 ## 2 - Crear entorno locar de desarrollo
-
+Support to: Unix and Windoes
 ```
 > cd folderName
 > python3 -m venv .
+```
+
+Support to: Unix
+```
 > source bin/activate <-- Activamos
+```
+
+Support to Windows
+```
+> .\Scripts\activate
 ```
 * El punto es para que instale en el mismo directorio.
 
