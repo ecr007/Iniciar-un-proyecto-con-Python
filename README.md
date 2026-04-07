@@ -27,7 +27,7 @@ Support to Windows
 ## Generar y Cargar el Requirements.txt
 
 >> pip freeze > requirements.txt
-<< pip install -r requirements.txt 
+>> pip install -r requirements.txt 
 ## 3 - Instalamos Django
 
 ```
