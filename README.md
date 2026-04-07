@@ -24,6 +24,10 @@ Support to Windows
 ```
 * El punto es para que instale en el mismo directorio.
 
+## Generar y Cargar el Requirements.txt
+
+>> pip freeze > requirements.txt
+<< pip install -r requirements.txt 
 ## 3 - Instalamos Django
 
 ```
